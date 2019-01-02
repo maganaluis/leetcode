@@ -14,12 +14,12 @@ while i < n - 1:
 	if not status and e >= (n - 1):
 	    w = s[i:e+1]
 	    if len(w) < len(min_s):
-	        min_s = w
+		min_s = w
 	    break
 	if not status and e < n - 1:
 	    e += 1
 	    if s[e] in tr.keys():
-	        tr[s[e]] += 1
+		tr[s[e]] += 1
 	if status:
 		found = True
 		if len(w) < len(min_s):
