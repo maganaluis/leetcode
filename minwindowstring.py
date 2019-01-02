@@ -32,4 +32,4 @@ while i < n - 1:
 if not found:
 	print('')
 else:
-	print(min_s)
+	print(min_s) #print for now
